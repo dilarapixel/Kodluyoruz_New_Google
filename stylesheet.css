@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    display: block;
+    align-self: center;
+    margin: 10%;
+    padding-top: 109px;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-self: center;   
+}
+
+input[type=button] {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+  }
+
+input[type=text] {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 15px;
+    color: rgba(0, 0, 0, .87);
+    font-size: large;
+    display: flex;
+    flex: 100%;
+  }
+
+.searchbox:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+header{
+    display: flex;
+    height: 6vh;
+    margin: 5px;
+}
+
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    height: 6vh;
+    margin-top: auto;
+    line-height: 40px;
+    min-width: 980px;
+  }
+
+a {
+    align-self: center;
+    color: #5f6368;
+    text-decoration: none;
+    margin: 10px 15px;
+    font-size: 1.5vh;
+  }
+
+.left-items{
+    margin-left: auto;
+}
+
+.searchbox{
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 582px;
+    box-shadow: none;
+    align-items: center;
+}
+
+.microphoneicon {
+    background: url(mic.png) 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+    padding: 0 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+svg{
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.squareicon{
+    display: inline-block;
+    background-image: url(map.png);
+    background-position: -132px -38px;
+    opacity: .55;
+}
